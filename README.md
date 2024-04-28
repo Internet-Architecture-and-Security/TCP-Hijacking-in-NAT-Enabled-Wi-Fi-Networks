@@ -1,6 +1,18 @@
 # TCP Hijacking in NAT-Enabled Wi-Fi Networks
 
-## `python` folder
+## Citations
+```
+@inproceedings{yang2024exploiting,
+  title={Exploiting Sequence Number Leakage: TCP Hijacking in NAT-Enabled Wi-Fi Networks},
+  author={Yang, Yuxiang and Feng, Xuewei and Li, Qi and Sun, Kun and Wang, Ziqiang and Xu, Ke},
+  booktitle={Network and Distributed System Security (NDSS) Symposium},
+  year={2024}
+}
+```
+
+## Get Started
+
+### `python` folder
 This is a python script to infer and hijack the victim's TCP connection based on the Wi-Fi frame size.
 
 Dependent library: `Scapy`
@@ -15,7 +27,7 @@ Run the script to infer the victim's TCP connection.
 ```bash
 sudo python3 main.py
 ```
-## `cpp` folder
+### `cpp` folder
 This is a C++ program that infers and hijacks the victim's TCP connection based on the Wi-Fi frame size.
 
 Dependent library: [libtins](https://libtins.github.io/), `C++11 Compiler`
